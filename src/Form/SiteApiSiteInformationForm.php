@@ -20,7 +20,7 @@ class SiteApiSiteInformationForm extends SiteInformationForm
 	public function buildForm(array $form, FormStateInterface $form_state)
 	{
 
-		print "lomas";
+		//print "lomas";
 		// Retrieve the system.site configuration
 		$site_config = $this->config('system.site');
  
